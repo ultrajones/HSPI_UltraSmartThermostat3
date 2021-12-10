@@ -21,8 +21,8 @@ Module hspi_plugin
   Public NetatmoAPI As hspi_netatmo_api
   Public NetatmoAPILock As New Object
 
-  Public gAPIClientId As String = "58877004e8ede183b28b92fa"
-  Public gAPIClientSecret As String = "jo8doZsY96wyvQSW5VCZ6xDElC8GnrmbPCHRaVOy"
+  Public gAPIClientId As String = ""      ' Need to populate
+  Public gAPIClientSecret As String = ""  ' Need to populate
   Public gAPIUsername As String = String.Empty
   Public gAPIPassword As String = String.Empty
   Public gAPIScope As String = "read_thermostat write_thermostat"
